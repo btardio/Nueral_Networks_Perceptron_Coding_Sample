@@ -1,0 +1,78 @@
+Brandon Tardio
+10/13/05
+NN CS494
+Dr. Jiang
+
+The perceptron implementation in java is complete.  The perceptron algorithm
+correctly classifies the training samples after the net has been
+trained.  
+
+After training using different values of theta and alpha I found that the
+value of alpha is inversely proportional to the number of epochs it takes
+for the net to train itself.  I also found that the theta value is proportional
+to the number of epochs.
+
+After running the test cases I found that the value of theta is
+inversely proportional to the number of misclassified patterns.  Choosing a
+theta of value 1.0 would give the best balance between number of patterns
+classified correctly and number of patterns classified incorrectly when using
+the datasets LNITest, MNITest, and HNITest.
+
+THETA	ALPHA	NUM EPOCHS
+50.0	1.00    6
+50.0	0.75	10
+50.0	0.50	10
+50.0	0.25	16
+10.0	1.00	5
+10.0	0.75	6
+10.0	0.50	5
+10.0	0.25	5
+5.00	1.00	3
+5.00	0.75	5	
+5.00	0.50	5
+5.00	0.25	5
+1.00	1.00	4
+1.00	0.75	4
+1.00	0.50	5
+1.00	0.25	3
+0.50	1.00	4
+0.50	0.75	4
+0.50	0.50	4
+0.50	0.25	5
+0.25	1.00	4
+0.25	0.75	4
+0.25	0.50	4
+0.25	0.25	4
+0.00	1.00	4
+0.00	0.75	4
+0.00	0.50	4
+0.00	0.25	4
+
+LNITest
+
+THETA	# Classified Correctly	#Classified Incorrectly
+50.0	7			0
+10.0	16			0
+5.00	15			0
+1.00	16			0
+0.50	16			0
+0.25	16			3
+0.00	16			3	
+
+MNITest
+50.0	9			0
+10.0	16			0
+5.00	15			0
+1.00	18			1
+0.50	16			2
+0.25	12			6
+0.00	12			6
+
+HNITest
+50.0	6			0
+10.0	10			0
+5.00	13			0
+1.00	13			2
+0.50	13			3
+0.25	10			9	
+0.00	10			9

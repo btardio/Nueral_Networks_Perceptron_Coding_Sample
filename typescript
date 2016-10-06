@@ -1,0 +1,3052 @@
+Script started on Wed 12 Oct 2005 10:19:30 AM PDT
+[cs494a5@cslab1:hw2]$ exitls[Kcat deploy.txt.outputls[Kjava themainls[K[K[Kjave [K[Ka themain
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+1
+Please enter a filename:
+>training.txt
+inputSize: 63
+outputSize: 7
+numInstances: 21
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+-1
+1
+1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+1
+1
+1
+1
+1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+-1
+1
+1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+1
+-1
+1
+1
+1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+1
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+5
+Printing weight for output node number 0
+weight[0] : -2.0
+weight[1] : 0.0
+weight[2] : 2.0
+weight[3] : 0.0
+weight[4] : -2.0
+weight[5] : -4.0
+weight[6] : 0.0
+weight[7] : 0.0
+weight[8] : 0.0
+weight[9] : 2.0
+weight[10] : 4.0
+weight[11] : 0.0
+weight[12] : 0.0
+weight[13] : 0.0
+weight[14] : 0.0
+weight[15] : 0.0
+weight[16] : 2.0
+weight[17] : 2.0
+weight[18] : 2.0
+weight[19] : 0.0
+weight[20] : 0.0
+weight[21] : 0.0
+weight[22] : 0.0
+weight[23] : 2.0
+weight[24] : 2.0
+weight[25] : 4.0
+weight[26] : 0.0
+weight[27] : 0.0
+weight[28] : 0.0
+weight[29] : -2.0
+weight[30] : 2.0
+weight[31] : 0.0
+weight[32] : 2.0
+weight[33] : -2.0
+weight[34] : 2.0
+weight[35] : 0.0
+weight[36] : 2.0
+weight[37] : 2.0
+weight[38] : 4.0
+weight[39] : 4.0
+weight[40] : 2.0
+weight[41] : 0.0
+weight[42] : 0.0
+weight[43] : 0.0
+weight[44] : 2.0
+weight[45] : 0.0
+weight[46] : 2.0
+weight[47] : 2.0
+weight[48] : 0.0
+weight[49] : 0.0
+weight[50] : 0.0
+weight[51] : 2.0
+weight[52] : 2.0
+weight[53] : 0.0
+weight[54] : 2.0
+weight[55] : 0.0
+weight[56] : 0.0
+weight[57] : 2.0
+weight[58] : 0.0
+weight[59] : -2.0
+weight[60] : 0.0
+weight[61] : 0.0
+weight[62] : 4.0
+bias[0] : -2.0
+Printing weight for output node number 1
+weight[63] : 2.0
+weight[64] : 2.0
+weight[65] : -2.0
+weight[66] : -2.0
+weight[67] : 0.0
+weight[68] : 4.0
+weight[69] : -2.0
+weight[70] : 2.0
+weight[71] : 0.0
+weight[72] : 2.0
+weight[73] : 0.0
+weight[74] : 2.0
+weight[75] : -2.0
+weight[76] : 6.0
+weight[77] : 0.0
+weight[78] : 2.0
+weight[79] : 2.0
+weight[80] : 0.0
+weight[81] : 2.0
+weight[82] : 2.0
+weight[83] : 4.0
+weight[84] : 0.0
+weight[85] : 2.0
+weight[86] : 2.0
+weight[87] : 4.0
+weight[88] : 2.0
+weight[89] : 4.0
+weight[90] : 2.0
+weight[91] : 0.0
+weight[92] : 2.0
+weight[93] : 2.0
+weight[94] : 4.0
+weight[95] : 2.0
+weight[96] : 6.0
+weight[97] : 0.0
+weight[98] : 0.0
+weight[99] : 0.0
+weight[100] : 0.0
+weight[101] : 0.0
+weight[102] : 0.0
+weight[103] : 0.0
+weight[104] : 4.0
+weight[105] : 0.0
+weight[106] : 0.0
+weight[107] : 2.0
+weight[108] : 2.0
+weight[109] : 2.0
+weight[110] : 0.0
+weight[111] : 4.0
+weight[112] : 2.0
+weight[113] : -2.0
+weight[114] : 2.0
+weight[115] : 2.0
+weight[116] : 2.0
+weight[117] : -4.0
+weight[118] : 6.0
+weight[119] : 0.0
+weight[120] : 0.0
+weight[121] : -2.0
+weight[122] : 0.0
+weight[123] : -2.0
+weight[124] : 2.0
+weight[125] : -2.0
+bias[1] : -2.0
+Printing weight for output node number 2
+weight[126] : -3.0
+weight[127] : -1.0
+weight[128] : 1.0
+weight[129] : 1.0
+weight[130] : 3.0
+weight[131] : -1.0
+weight[132] : 5.0
+weight[133] : -1.0
+weight[134] : 5.0
+weight[135] : 3.0
+weight[136] : 1.0
+weight[137] : 1.0
+weight[138] : 1.0
+weight[139] : 3.0
+weight[140] : 3.0
+weight[141] : 1.0
+weight[142] : 3.0
+weight[143] : -1.0
+weight[144] : 3.0
+weight[145] : 1.0
+weight[146] : 1.0
+weight[147] : 3.0
+weight[148] : 1.0
+weight[149] : -1.0
+weight[150] : 3.0
+weight[151] : 1.0
+weight[152] : 1.0
+weight[153] : -1.0
+weight[154] : 3.0
+weight[155] : -3.0
+weight[156] : -1.0
+weight[157] : 1.0
+weight[158] : -1.0
+weight[159] : -1.0
+weight[160] : 1.0
+weight[161] : 3.0
+weight[162] : -1.0
+weight[163] : -1.0
+weight[164] : 1.0
+weight[165] : 1.0
+weight[166] : -1.0
+weight[167] : -1.0
+weight[168] : 3.0
+weight[169] : -3.0
+weight[170] : 3.0
+weight[171] : 1.0
+weight[172] : 3.0
+weight[173] : -1.0
+weight[174] : 1.0
+weight[175] : -1.0
+weight[176] : 1.0
+weight[177] : 3.0
+weight[178] : 3.0
+weight[179] : 1.0
+weight[180] : -1.0
+weight[181] : 3.0
+weight[182] : -5.0
+weight[183] : -3.0
+weight[184] : -1.0
+weight[185] : 1.0
+weight[186] : -1.0
+weight[187] : -1.0
+weight[188] : 1.0
+bias[2] : -3.0
+Printing weight for output node number 3
+weight[189] : 3.0
+weight[190] : 3.0
+weight[191] : -1.0
+weight[192] : -1.0
+weight[193] : 1.0
+weight[194] : -5.0
+weight[195] : -1.0
+weight[196] : 3.0
+weight[197] : 1.0
+weight[198] : 3.0
+weight[199] : 1.0
+weight[200] : 3.0
+weight[201] : 5.0
+weight[202] : -5.0
+weight[203] : 1.0
+weight[204] : 3.0
+weight[205] : 3.0
+weight[206] : 1.0
+weight[207] : 3.0
+weight[208] : 1.0
+weight[209] : 3.0
+weight[210] : 1.0
+weight[211] : 3.0
+weight[212] : -1.0
+weight[213] : -1.0
+weight[214] : -1.0
+weight[215] : -1.0
+weight[216] : 7.0
+weight[217] : 1.0
+weight[218] : 1.0
+weight[219] : -3.0
+weight[220] : -1.0
+weight[221] : -1.0
+weight[222] : -1.0
+weight[223] : 7.0
+weight[224] : 1.0
+weight[225] : 1.0
+weight[226] : 1.0
+weight[227] : -1.0
+weight[228] : 1.0
+weight[229] : -1.0
+weight[230] : 5.0
+weight[231] : 1.0
+weight[232] : -1.0
+weight[233] : 3.0
+weight[234] : 3.0
+weight[235] : 3.0
+weight[236] : -1.0
+weight[237] : 3.0
+weight[238] : 3.0
+weight[239] : -3.0
+weight[240] : 3.0
+weight[241] : 3.0
+weight[242] : 3.0
+weight[243] : 3.0
+weight[244] : -3.0
+weight[245] : 1.0
+weight[246] : 1.0
+weight[247] : -3.0
+weight[248] : -1.0
+weight[249] : -3.0
+weight[250] : -5.0
+weight[251] : -1.0
+bias[3] : -3.0
+Printing weight for output node number 4
+weight[252] : 1.0
+weight[253] : 1.0
+weight[254] : -1.0
+weight[255] : 3.0
+weight[256] : 3.0
+weight[257] : -1.0
+weight[258] : 7.0
+weight[259] : 1.0
+weight[260] : 3.0
+weight[261] : 3.0
+weight[262] : 1.0
+weight[263] : 1.0
+weight[264] : -1.0
+weight[265] : 1.0
+weight[266] : 1.0
+weight[267] : 3.0
+weight[268] : 3.0
+weight[269] : -1.0
+weight[270] : 3.0
+weight[271] : 1.0
+weight[272] : -5.0
+weight[273] : 1.0
+weight[274] : 3.0
+weight[275] : -1.0
+weight[276] : 5.0
+weight[277] : 1.0
+weight[278] : -1.0
+weight[279] : -3.0
+weight[280] : 1.0
+weight[281] : 1.0
+weight[282] : -1.0
+weight[283] : 5.0
+weight[284] : 1.0
+weight[285] : -5.0
+weight[286] : 1.0
+weight[287] : 1.0
+weight[288] : 1.0
+weight[289] : 1.0
+weight[290] : 1.0
+weight[291] : 1.0
+weight[292] : -1.0
+weight[293] : -5.0
+weight[294] : 1.0
+weight[295] : 1.0
+weight[296] : 3.0
+weight[297] : 3.0
+weight[298] : -1.0
+weight[299] : -1.0
+weight[300] : -5.0
+weight[301] : 1.0
+weight[302] : -1.0
+weight[303] : 3.0
+weight[304] : 3.0
+weight[305] : 3.0
+weight[306] : -5.0
+weight[307] : 1.0
+weight[308] : -1.0
+weight[309] : -1.0
+weight[310] : -3.0
+weight[311] : 3.0
+weight[312] : 1.0
+weight[313] : -1.0
+weight[314] : 7.0
+bias[4] : -3.0
+Printing weight for output node number 5
+weight[315] : 0.0
+weight[316] : 0.0
+weight[317] : -4.0
+weight[318] : -2.0
+weight[319] : 0.0
+weight[320] : 2.0
+weight[321] : 4.0
+weight[322] : 0.0
+weight[323] : 0.0
+weight[324] : 2.0
+weight[325] : 0.0
+weight[326] : 2.0
+weight[327] : 2.0
+weight[328] : 0.0
+weight[329] : -2.0
+weight[330] : 2.0
+weight[331] : 2.0
+weight[332] : 0.0
+weight[333] : 2.0
+weight[334] : 4.0
+weight[335] : -2.0
+weight[336] : -2.0
+weight[337] : 2.0
+weight[338] : 0.0
+weight[339] : 2.0
+weight[340] : 0.0
+weight[341] : 4.0
+weight[342] : 0.0
+weight[343] : -2.0
+weight[344] : 0.0
+weight[345] : -2.0
+weight[346] : 0.0
+weight[347] : -2.0
+weight[348] : 2.0
+weight[349] : 2.0
+weight[350] : -2.0
+weight[351] : 0.0
+weight[352] : 0.0
+weight[353] : 0.0
+weight[354] : 0.0
+weight[355] : 2.0
+weight[356] : 0.0
+weight[357] : -2.0
+weight[358] : 2.0
+weight[359] : 2.0
+weight[360] : 2.0
+weight[361] : 2.0
+weight[362] : 2.0
+weight[363] : -2.0
+weight[364] : 0.0
+weight[365] : 0.0
+weight[366] : 2.0
+weight[367] : 2.0
+weight[368] : 2.0
+weight[369] : 0.0
+weight[370] : 0.0
+weight[371] : -2.0
+weight[372] : -2.0
+weight[373] : -2.0
+weight[374] : 0.0
+weight[375] : -2.0
+weight[376] : -2.0
+weight[377] : 0.0
+bias[5] : -2.0
+Printing weight for output node number 6
+weight[378] : 2.0
+weight[379] : 0.0
+weight[380] : -2.0
+weight[381] : -4.0
+weight[382] : -2.0
+weight[383] : 2.0
+weight[384] : 2.0
+weight[385] : 0.0
+weight[386] : 2.0
+weight[387] : 0.0
+weight[388] : -2.0
+weight[389] : 4.0
+weight[390] : 0.0
+weight[391] : -2.0
+weight[392] : 0.0
+weight[393] : 2.0
+weight[394] : 0.0
+weight[395] : 2.0
+weight[396] : 0.0
+weight[397] : 0.0
+weight[398] : -2.0
+weight[399] : 0.0
+weight[400] : 2.0
+weight[401] : 2.0
+weight[402] : 0.0
+weight[403] : -2.0
+weight[404] : 0.0
+weight[405] : -2.0
+weight[406] : 0.0
+weight[407] : 2.0
+weight[408] : -2.0
+weight[409] : -2.0
+weight[410] : -4.0
+weight[411] : -2.0
+weight[412] : 0.0
+weight[413] : 0.0
+weight[414] : 0.0
+weight[415] : 0.0
+weight[416] : 0.0
+weight[417] : -2.0
+weight[418] : -2.0
+weight[419] : -2.0
+weight[420] : 0.0
+weight[421] : 0.0
+weight[422] : 0.0
+weight[423] : 2.0
+weight[424] : 2.0
+weight[425] : -2.0
+weight[426] : -2.0
+weight[427] : 0.0
+weight[428] : 0.0
+weight[429] : 0.0
+weight[430] : 0.0
+weight[431] : 2.0
+weight[432] : 0.0
+weight[433] : -2.0
+weight[434] : 0.0
+weight[435] : -2.0
+weight[436] : -2.0
+weight[437] : -2.0
+weight[438] : -4.0
+weight[439] : 0.0
+weight[440] : 0.0
+bias[6] : 0.0
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+3
+Please enter a filename:
+>saved_weights.txt
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+2
+Please enter a filename:
+>saved_weights.txt
+inputSize: 63
+outputSize: 7
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+5
+Printing weight for output node number 0
+weight[0] : -2.0
+weight[1] : 0.0
+weight[2] : 2.0
+weight[3] : 0.0
+weight[4] : -2.0
+weight[5] : -4.0
+weight[6] : 0.0
+weight[7] : 0.0
+weight[8] : 0.0
+weight[9] : 2.0
+weight[10] : 4.0
+weight[11] : 0.0
+weight[12] : 0.0
+weight[13] : 0.0
+weight[14] : 0.0
+weight[15] : 0.0
+weight[16] : 2.0
+weight[17] : 2.0
+weight[18] : 2.0
+weight[19] : 0.0
+weight[20] : 0.0
+weight[21] : 0.0
+weight[22] : 0.0
+weight[23] : 2.0
+weight[24] : 2.0
+weight[25] : 4.0
+weight[26] : 0.0
+weight[27] : 0.0
+weight[28] : 0.0
+weight[29] : -2.0
+weight[30] : 2.0
+weight[31] : 0.0
+weight[32] : 2.0
+weight[33] : -2.0
+weight[34] : 2.0
+weight[35] : 0.0
+weight[36] : 2.0
+weight[37] : 2.0
+weight[38] : 4.0
+weight[39] : 4.0
+weight[40] : 2.0
+weight[41] : 0.0
+weight[42] : 0.0
+weight[43] : 0.0
+weight[44] : 2.0
+weight[45] : 0.0
+weight[46] : 2.0
+weight[47] : 2.0
+weight[48] : 0.0
+weight[49] : 0.0
+weight[50] : 0.0
+weight[51] : 2.0
+weight[52] : 2.0
+weight[53] : 0.0
+weight[54] : 2.0
+weight[55] : 0.0
+weight[56] : 0.0
+weight[57] : 2.0
+weight[58] : 0.0
+weight[59] : -2.0
+weight[60] : 0.0
+weight[61] : 0.0
+weight[62] : 4.0
+bias[0] : -2.0
+Printing weight for output node number 1
+weight[63] : 2.0
+weight[64] : 2.0
+weight[65] : -2.0
+weight[66] : -2.0
+weight[67] : 0.0
+weight[68] : 4.0
+weight[69] : -2.0
+weight[70] : 2.0
+weight[71] : 0.0
+weight[72] : 2.0
+weight[73] : 0.0
+weight[74] : 2.0
+weight[75] : -2.0
+weight[76] : 6.0
+weight[77] : 0.0
+weight[78] : 2.0
+weight[79] : 2.0
+weight[80] : 0.0
+weight[81] : 2.0
+weight[82] : 2.0
+weight[83] : 4.0
+weight[84] : 0.0
+weight[85] : 2.0
+weight[86] : 2.0
+weight[87] : 4.0
+weight[88] : 2.0
+weight[89] : 4.0
+weight[90] : 2.0
+weight[91] : 0.0
+weight[92] : 2.0
+weight[93] : 2.0
+weight[94] : 4.0
+weight[95] : 2.0
+weight[96] : 6.0
+weight[97] : 0.0
+weight[98] : 0.0
+weight[99] : 0.0
+weight[100] : 0.0
+weight[101] : 0.0
+weight[102] : 0.0
+weight[103] : 0.0
+weight[104] : 4.0
+weight[105] : 0.0
+weight[106] : 0.0
+weight[107] : 2.0
+weight[108] : 2.0
+weight[109] : 2.0
+weight[110] : 0.0
+weight[111] : 4.0
+weight[112] : 2.0
+weight[113] : -2.0
+weight[114] : 2.0
+weight[115] : 2.0
+weight[116] : 2.0
+weight[117] : -4.0
+weight[118] : 6.0
+weight[119] : 0.0
+weight[120] : 0.0
+weight[121] : -2.0
+weight[122] : 0.0
+weight[123] : -2.0
+weight[124] : 2.0
+weight[125] : -2.0
+bias[1] : -2.0
+Printing weight for output node number 2
+weight[126] : -3.0
+weight[127] : -1.0
+weight[128] : 1.0
+weight[129] : 1.0
+weight[130] : 3.0
+weight[131] : -1.0
+weight[132] : 5.0
+weight[133] : -1.0
+weight[134] : 5.0
+weight[135] : 3.0
+weight[136] : 1.0
+weight[137] : 1.0
+weight[138] : 1.0
+weight[139] : 3.0
+weight[140] : 3.0
+weight[141] : 1.0
+weight[142] : 3.0
+weight[143] : -1.0
+weight[144] : 3.0
+weight[145] : 1.0
+weight[146] : 1.0
+weight[147] : 3.0
+weight[148] : 1.0
+weight[149] : -1.0
+weight[150] : 3.0
+weight[151] : 1.0
+weight[152] : 1.0
+weight[153] : -1.0
+weight[154] : 3.0
+weight[155] : -3.0
+weight[156] : -1.0
+weight[157] : 1.0
+weight[158] : -1.0
+weight[159] : -1.0
+weight[160] : 1.0
+weight[161] : 3.0
+weight[162] : -1.0
+weight[163] : -1.0
+weight[164] : 1.0
+weight[165] : 1.0
+weight[166] : -1.0
+weight[167] : -1.0
+weight[168] : 3.0
+weight[169] : -3.0
+weight[170] : 3.0
+weight[171] : 1.0
+weight[172] : 3.0
+weight[173] : -1.0
+weight[174] : 1.0
+weight[175] : -1.0
+weight[176] : 1.0
+weight[177] : 3.0
+weight[178] : 3.0
+weight[179] : 1.0
+weight[180] : -1.0
+weight[181] : 3.0
+weight[182] : -5.0
+weight[183] : -3.0
+weight[184] : -1.0
+weight[185] : 1.0
+weight[186] : -1.0
+weight[187] : -1.0
+weight[188] : 1.0
+bias[2] : -3.0
+Printing weight for output node number 3
+weight[189] : 3.0
+weight[190] : 3.0
+weight[191] : -1.0
+weight[192] : -1.0
+weight[193] : 1.0
+weight[194] : -5.0
+weight[195] : -1.0
+weight[196] : 3.0
+weight[197] : 1.0
+weight[198] : 3.0
+weight[199] : 1.0
+weight[200] : 3.0
+weight[201] : 5.0
+weight[202] : -5.0
+weight[203] : 1.0
+weight[204] : 3.0
+weight[205] : 3.0
+weight[206] : 1.0
+weight[207] : 3.0
+weight[208] : 1.0
+weight[209] : 3.0
+weight[210] : 1.0
+weight[211] : 3.0
+weight[212] : -1.0
+weight[213] : -1.0
+weight[214] : -1.0
+weight[215] : -1.0
+weight[216] : 7.0
+weight[217] : 1.0
+weight[218] : 1.0
+weight[219] : -3.0
+weight[220] : -1.0
+weight[221] : -1.0
+weight[222] : -1.0
+weight[223] : 7.0
+weight[224] : 1.0
+weight[225] : 1.0
+weight[226] : 1.0
+weight[227] : -1.0
+weight[228] : 1.0
+weight[229] : -1.0
+weight[230] : 5.0
+weight[231] : 1.0
+weight[232] : -1.0
+weight[233] : 3.0
+weight[234] : 3.0
+weight[235] : 3.0
+weight[236] : -1.0
+weight[237] : 3.0
+weight[238] : 3.0
+weight[239] : -3.0
+weight[240] : 3.0
+weight[241] : 3.0
+weight[242] : 3.0
+weight[243] : 3.0
+weight[244] : -3.0
+weight[245] : 1.0
+weight[246] : 1.0
+weight[247] : -3.0
+weight[248] : -1.0
+weight[249] : -3.0
+weight[250] : -5.0
+weight[251] : -1.0
+bias[3] : -3.0
+Printing weight for output node number 4
+weight[252] : 1.0
+weight[253] : 1.0
+weight[254] : -1.0
+weight[255] : 3.0
+weight[256] : 3.0
+weight[257] : -1.0
+weight[258] : 7.0
+weight[259] : 1.0
+weight[260] : 3.0
+weight[261] : 3.0
+weight[262] : 1.0
+weight[263] : 1.0
+weight[264] : -1.0
+weight[265] : 1.0
+weight[266] : 1.0
+weight[267] : 3.0
+weight[268] : 3.0
+weight[269] : -1.0
+weight[270] : 3.0
+weight[271] : 1.0
+weight[272] : -5.0
+weight[273] : 1.0
+weight[274] : 3.0
+weight[275] : -1.0
+weight[276] : 5.0
+weight[277] : 1.0
+weight[278] : -1.0
+weight[279] : -3.0
+weight[280] : 1.0
+weight[281] : 1.0
+weight[282] : -1.0
+weight[283] : 5.0
+weight[284] : 1.0
+weight[285] : -5.0
+weight[286] : 1.0
+weight[287] : 1.0
+weight[288] : 1.0
+weight[289] : 1.0
+weight[290] : 1.0
+weight[291] : 1.0
+weight[292] : -1.0
+weight[293] : -5.0
+weight[294] : 1.0
+weight[295] : 1.0
+weight[296] : 3.0
+weight[297] : 3.0
+weight[298] : -1.0
+weight[299] : -1.0
+weight[300] : -5.0
+weight[301] : 1.0
+weight[302] : -1.0
+weight[303] : 3.0
+weight[304] : 3.0
+weight[305] : 3.0
+weight[306] : -5.0
+weight[307] : 1.0
+weight[308] : -1.0
+weight[309] : -1.0
+weight[310] : -3.0
+weight[311] : 3.0
+weight[312] : 1.0
+weight[313] : -1.0
+weight[314] : 7.0
+bias[4] : -3.0
+Printing weight for output node number 5
+weight[315] : 0.0
+weight[316] : 0.0
+weight[317] : -4.0
+weight[318] : -2.0
+weight[319] : 0.0
+weight[320] : 2.0
+weight[321] : 4.0
+weight[322] : 0.0
+weight[323] : 0.0
+weight[324] : 2.0
+weight[325] : 0.0
+weight[326] : 2.0
+weight[327] : 2.0
+weight[328] : 0.0
+weight[329] : -2.0
+weight[330] : 2.0
+weight[331] : 2.0
+weight[332] : 0.0
+weight[333] : 2.0
+weight[334] : 4.0
+weight[335] : -2.0
+weight[336] : -2.0
+weight[337] : 2.0
+weight[338] : 0.0
+weight[339] : 2.0
+weight[340] : 0.0
+weight[341] : 4.0
+weight[342] : 0.0
+weight[343] : -2.0
+weight[344] : 0.0
+weight[345] : -2.0
+weight[346] : 0.0
+weight[347] : -2.0
+weight[348] : 2.0
+weight[349] : 2.0
+weight[350] : -2.0
+weight[351] : 0.0
+weight[352] : 0.0
+weight[353] : 0.0
+weight[354] : 0.0
+weight[355] : 2.0
+weight[356] : 0.0
+weight[357] : -2.0
+weight[358] : 2.0
+weight[359] : 2.0
+weight[360] : 2.0
+weight[361] : 2.0
+weight[362] : 2.0
+weight[363] : -2.0
+weight[364] : 0.0
+weight[365] : 0.0
+weight[366] : 2.0
+weight[367] : 2.0
+weight[368] : 2.0
+weight[369] : 0.0
+weight[370] : 0.0
+weight[371] : -2.0
+weight[372] : -2.0
+weight[373] : -2.0
+weight[374] : 0.0
+weight[375] : -2.0
+weight[376] : -2.0
+weight[377] : 0.0
+bias[5] : -2.0
+Printing weight for output node number 6
+weight[378] : 2.0
+weight[379] : 0.0
+weight[380] : -2.0
+weight[381] : -4.0
+weight[382] : -2.0
+weight[383] : 2.0
+weight[384] : 2.0
+weight[385] : 0.0
+weight[386] : 2.0
+weight[387] : 0.0
+weight[388] : -2.0
+weight[389] : 4.0
+weight[390] : 0.0
+weight[391] : -2.0
+weight[392] : 0.0
+weight[393] : 2.0
+weight[394] : 0.0
+weight[395] : 2.0
+weight[396] : 0.0
+weight[397] : 0.0
+weight[398] : -2.0
+weight[399] : 0.0
+weight[400] : 2.0
+weight[401] : 2.0
+weight[402] : 0.0
+weight[403] : -2.0
+weight[404] : 0.0
+weight[405] : -2.0
+weight[406] : 0.0
+weight[407] : 2.0
+weight[408] : -2.0
+weight[409] : -2.0
+weight[410] : -4.0
+weight[411] : -2.0
+weight[412] : 0.0
+weight[413] : 0.0
+weight[414] : 0.0
+weight[415] : 0.0
+weight[416] : 0.0
+weight[417] : -2.0
+weight[418] : -2.0
+weight[419] : -2.0
+weight[420] : 0.0
+weight[421] : 0.0
+weight[422] : 0.0
+weight[423] : 2.0
+weight[424] : 2.0
+weight[425] : -2.0
+weight[426] : -2.0
+weight[427] : 0.0
+weight[428] : 0.0
+weight[429] : 0.0
+weight[430] : 0.0
+weight[431] : 2.0
+weight[432] : 0.0
+weight[433] : -2.0
+weight[434] : 0.0
+weight[435] : -2.0
+weight[436] : -2.0
+weight[437] : -2.0
+weight[438] : -4.0
+weight[439] : 0.0
+weight[440] : 0.0
+bias[6] : 0.0
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+4
+Please enter a filename:
+>deploy.txt
+INPUT: 
+Welcome to my first neural network - Perceptron!
+Choices:
+	1-Train using a training input data file.
+	2-Load weight.
+	3-Save weights.
+	4-Deploy.
+	5-Show Weights.
+	6-Quit.
+6
+[cs494a5@cslab1:hw2]$ cat deploy.txt.output
+-1 -1 1 1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 -1 1 -1 -1 -1 -1 -1 1 -1 1 -1 -1 -1 -1 1 -1 1 -1 -1 -1 1 1 1 1 1 -1 -1 1 -1 -1 -1 1 -1 -1 1 -1 -1 -1 1 -1 1 1 1 -1 1 1 1 A1 A2 A3 [cs494a5@cslab1:hw2]$ exit
+exit
+
+Script done on Wed 12 Oct 2005 10:20:33 AM PDT
